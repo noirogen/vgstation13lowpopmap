@@ -1,7 +1,0 @@
-author: SECBATON-GRIFFON
-delete-after: true
-changes:
-- tweak: Map elements loaded and not set to overwrite will now no longer overwrite
-    turfs if the type loaded in is the base turf of the z-level
-- tweak: Many fixed location vaults in space such as the derelict are now loaded in
-    during roundstart and can be turned off in the server config for faster startups.
