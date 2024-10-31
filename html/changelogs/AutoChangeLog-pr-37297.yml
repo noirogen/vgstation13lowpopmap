@@ -1,5 +1,0 @@
-author: noirogen
-delete-after: true
-changes:
-- bugfix: Fixes an issue where hostile mob's friends list entries get deleted while
-    in use after they take damage.
