@@ -72,7 +72,7 @@ But you can call procs that are of type /mob/living/carbon/human/proc/ for that 
 
 		// absolutely not
 		if(findtextEx(trim(lowertext(procname)), "rustg"))
-			message_admins("<span class='userdanger'>[key_name_admin(src)] attempted to proc call rust-g procs. Inform the host <u>at once</u>.</span>")
+			message_admins("<span class='userdanger'>[key_name_admin(src)] attempted to proc call rust-g procs ([strip_html_properly(procname)]). Inform the host <i>at once</i>.</span>")
 			log_admin("[key_name(src)] attempted to proc call rust-g procs. Inform the host at once.")
 			send2admindiscord("[key_name(src)] attempted to proc call rustg things. Inform the host at once.", TRUE)
 			return
