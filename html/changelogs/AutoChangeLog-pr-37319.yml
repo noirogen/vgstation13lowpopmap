@@ -1,5 +1,0 @@
-author: hacker-on-steroids
-delete-after: true
-changes:
-- bugfix: portable pumps/scrubbers now only update their pipe network if they're turned
-    on
