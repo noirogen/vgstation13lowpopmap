@@ -1,0 +1,6 @@
+author: Dacendeth
+delete-after: true
+changes:
+- bugfix: Plasmaman can be cloned again.
+- tweak: Cloning now gives you the same leeway for getting internals as popping out
+    of cryo.
