@@ -1,0 +1,10 @@
+author: DeityLink
+delete-after: true
+changes:
+- bugfix: Fixed the Holodeck randomly breaking and no longer switching layouts.
+- bugfix: Spamming the Holodeck computer no longer adds extra delay to being able
+    to switch layout.
+- bugfix: The water overlay from the Beach Holodeck layout no longer persists through
+    other modes
+- rscadd: After 12 years you can now turn off the Holodeck, resetting it to its initial
+    layout. The currently selected layout also now appears in bold in the list.
